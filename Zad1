@@ -1,0 +1,19 @@
+public class lab3 {
+    
+    public static void main(String[] args) {
+
+        int[] tab2 = {1, 2};
+        int zadanie1 = zadanie1(tab2);
+        System.out.println(zadanie1);
+    }
+    
+    // zadanie 1
+    
+        public static int zadanie1(int[] tab){
+        int suma = 0;
+        for (int i = 0; i < tab.length; i++) {
+                suma = suma + tab[i];
+        }
+        return suma;
+    }
+}
