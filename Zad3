@@ -1,0 +1,15 @@
+public class lab3 {
+    
+    public static void main(String[] args) {
+        
+        
+        // zadanie 3
+        
+        String[] newTab = {"a", "b", "c", "d"};
+
+        for (String element : newTab) {
+            System.out.println(element.toUpperCase());
+        }
+        
+    }
+}
